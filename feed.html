@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VIRO Reels</title>
+
+<style>
+body{
+margin:0;
+background:black;
+height:100vh;
+overflow-y:scroll;
+scroll-snap-type:y mandatory;
+font-family:Arial;
+}
+
+.reel{
+height:100vh;
+scroll-snap-align:start;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:40px;
+font-weight:bold;
+color:white;
+position:relative;
+}
+
+.r1{background:#ff0050;}
+.r2{background:#0099ff;}
+.r3{background:#00cc66;}
+
+.actions{
+position:absolute;
+right:20px;
+bottom:100px;
+display:flex;
+flex-direction:column;
+gap:20px;
+font-size:32px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="reel r1">
+🔥 Reel 1
+<div class="actions">
+❤️
+💬
+🔄
+</div>
+</div>
+
+<div class="reel r2">
+😂 Reel 2
+<div class="actions">
+❤️
+💬
+🔄
+</div>
+</div>
+
+<div class="reel r3">
+🚀 Reel 3
+<div class="actions">
+❤️
+💬
+🔄
+</div>
+</div>
+
+</body>
+</html>
